@@ -1273,7 +1273,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Your query {search} 🔥 \n\n<b>[How To Download??](https://graph.org/file/91dad88fd1813895a1ba4.jpg)\n</b>Watch Tutorial: [CLICK HERE](t.me/rh2db/2)\n------------\n\nWant To Skip ads?\n[CheckOut Ad FREE EXPERIENCE!](https://t.me/RelaxroomPremium/2)"
+        cap = f"Your query {search} 🔥\n✯ ━━━━━━ ✧ ━━━━━━ ✯ \n<b>[How To Download??](https://graph.org/file/91dad88fd1813895a1ba4.jpg)\n</b>Watch Tutorial: [CLICK HERE](t.me/rh2db/2)\n✯ ━━━━━━ ✧ ━━━━━━ ✯\n🔥Want To Skip ads?\n[🛒Check Out Premium Subscription of BOT!!](https://t.me/RelaxroomPremium/2)"
     if imdb and imdb.get('poster'):
         try:
             z = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
